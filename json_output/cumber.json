@@ -1,0 +1,68 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#@FunctionalTest"
+      }
+    ],
+    "line": 2,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 22891643080,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginPage.logi()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "UnSuccessful Login",
+        "description": "",
+        "id": "ecommerce-application;unsuccessful-login",
+        "after": [
+          {
+            "result": {
+              "duration": 2316175246,
+              "status": "passed"
+            },
+            "match": {
+              "location": "loginPage.clickOnSubmit()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 74397799,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "This is a blank test",
+            "match": {
+              "location": "loginPage.This_is_a_blank_test()"
+            },
+            "keyword": "Given "
+          }
+        ],
+        "tags": [
+          {
+            "line": 8,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "ECommerce Application",
+    "description": "",
+    "id": "ecommerce-application",
+    "keyword": "Feature",
+    "uri": "C:/Users/TYSS/Desktop/punit/mavenproject/src/main/java/featurefile/examplegroup.feature"
+  }
+]

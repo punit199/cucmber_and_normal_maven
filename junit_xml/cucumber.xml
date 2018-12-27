@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="25.282216">
+<testcase classname="ECommerce Application" name="UnSuccessful Login" time="25.282216">
+<system-out><![CDATA[Given This is a blank test..................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
