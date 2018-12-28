@@ -1,5 +1,7 @@
 package testscripts;
 
+import java.time.LocalDate;
+
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.Test;
 
@@ -17,7 +19,8 @@ public class Example extends Baseclass {
 		hg.getMonthBtn().click();
         Thread.sleep(2000);
 		Calender cal = new Calender();
-        cal.selectThedate("12-Nov-2018");
+		LocalDate date=LocalDate.now();
+        cal.selectThedate(date.toString());
 	}
 
 }
