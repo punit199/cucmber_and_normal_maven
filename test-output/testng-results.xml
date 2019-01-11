@@ -2,32 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41751" started-at="2019-01-11T05:27:16Z" finished-at="2019-01-11T05:27:58Z">
+  <suite name="Default suite" duration-ms="9194" started-at="2019-01-11T09:55:44Z" finished-at="2019-01-11T09:55:53Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41751" started-at="2019-01-11T05:27:16Z" finished-at="2019-01-11T05:27:58Z">
-      <class name="testscripts.BrokenLink">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="lunchBrowser" is-config="true" duration-ms="3024" started-at="2019-01-11T10:57:16Z" finished-at="2019-01-11T10:57:19Z">
+    <test name="Default test" duration-ms="9194" started-at="2019-01-11T09:55:44Z" finished-at="2019-01-11T09:55:53Z">
+      <class name="Example.LunchTheBrowserByWindow">
+        <test-method status="PASS" signature="lunch()[pri:0, instance:Example.LunchTheBrowserByWindow@1ce92674]" name="lunch" duration-ms="9179" started-at="2019-01-11T15:25:44Z" finished-at="2019-01-11T15:25:53Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="lunchApp()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="lunchApp" is-config="true" duration-ms="5304" started-at="2019-01-11T10:57:19Z" finished-at="2019-01-11T10:57:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- lunchApp -->
-        <test-method status="PASS" signature="getTheBrokenLink()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="getTheBrokenLink" duration-ms="29936" started-at="2019-01-11T10:57:24Z" finished-at="2019-01-11T10:57:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getTheBrokenLink -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="closeApp" is-config="true" duration-ms="1345" started-at="2019-01-11T10:57:54Z" finished-at="2019-01-11T10:57:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="closeBrowser" is-config="true" duration-ms="2112" started-at="2019-01-11T10:57:56Z" finished-at="2019-01-11T10:57:58Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- testscripts.BrokenLink -->
+        </test-method> <!-- lunch -->
+      </class> <!-- Example.LunchTheBrowserByWindow -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
