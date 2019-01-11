@@ -1,8 +1,10 @@
 package stepdefination;
 
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -31,7 +33,7 @@ public class loginPage {
 		System.setProperty("webdriver.chrome.driver","C:\\Users\\TYSS\\Desktop\\punit\\mavenproject\\resource\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.get("https://www.google.com/gmail/");
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	}
 	@When("^verify the login page by title$")
 	public void verifyThePage()
@@ -61,6 +63,17 @@ public class loginPage {
 		hp.loginToGmail(data.get(0).get(0),data.get(0).get(1));
 	  
 	}*/
+	
+	@And("^get all the mail of given date$")
+	public void get_all_the_mail_of() {
+		HomePage hp = PageFactory.initElements(driver,HomePage.class);
+		List<WebElement> mailOfparticularDate =hp.getMail();
+		for(WebElement w: mailOfparticularDate)
+		{
+			System.out.println(w.getText());
+		}
+	   
+	}
 
 	@When("^now enter the username and password$")
 	public void now_enter_the_username_and_password(DataTable dealDate) throws Throwable {

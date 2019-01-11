@@ -1,18 +1,12 @@
 [
   {
-    "comments": [
-      {
-        "line": 1,
-        "value": "#@FunctionalTest"
-      }
-    ],
-    "line": 2,
+    "line": 1,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 22891643080,
+              "duration": 23217936166,
               "status": "passed"
             },
             "match": {
@@ -20,14 +14,14 @@
             }
           }
         ],
-        "line": 9,
-        "name": "UnSuccessful Login",
+        "line": 2,
+        "name": "login to gmail application",
         "description": "",
-        "id": "ecommerce-application;unsuccessful-login",
+        "id": "gmail-application;login-to-gmail-application",
         "after": [
           {
             "result": {
-              "duration": 2316175246,
+              "duration": 2460974122,
               "status": "passed"
             },
             "match": {
@@ -40,29 +34,63 @@
         "steps": [
           {
             "result": {
-              "duration": 74397799,
+              "duration": 140335457,
               "status": "passed"
             },
-            "line": 10,
-            "name": "This is a blank test",
+            "comments": [
+              {
+                "line": 3,
+                "value": "#Given user are already in login page"
+              }
+            ],
+            "line": 4,
+            "name": "verify the login page by title",
             "match": {
-              "location": "loginPage.This_is_a_blank_test()"
+              "location": "loginPage.verifyThePage()"
             },
-            "keyword": "Given "
-          }
-        ],
-        "tags": [
+            "keyword": "When "
+          },
           {
-            "line": 8,
-            "name": "@RegressionTest"
+            "result": {
+              "duration": 17906721699,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "now enter the username \"pksample4@gmail.com\" and password \"punitkumar@16\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "pksample4@gmail.com",
+                  "offset": 24
+                },
+                {
+                  "val": "punitkumar@16",
+                  "offset": 59
+                }
+              ],
+              "location": "loginPage.enterTheUse(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18012480800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "get all the mail of given date",
+            "match": {
+              "location": "loginPage.get_all_the_mail_of()"
+            },
+            "keyword": "And "
           }
         ]
       }
     ],
-    "name": "ECommerce Application",
+    "name": "gmail application",
     "description": "",
-    "id": "ecommerce-application",
+    "id": "gmail-application",
     "keyword": "Feature",
-    "uri": "C:/Users/TYSS/Desktop/punit/mavenproject/src/main/java/featurefile/examplegroup.feature"
+    "uri": "C:/Users/TYSS/Desktop/punit/mavenproject/src/main/java/featurefile/loginsimpledatadriven.feature"
   }
 ]

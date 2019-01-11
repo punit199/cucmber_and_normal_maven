@@ -1,4 +1,4 @@
-#@FunctionalTest
+@FunctionalTest
 Feature: ECommerce Application
  
 @SmokeTest @RegressionTest

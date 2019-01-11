@@ -14,6 +14,13 @@ public class HomePage {
 	@FindBy(xpath="//table[@id='ext-comp-1005']/tbody/tr/td[2]")
 	private WebElement monthBtn ;
 	
+	@FindBys({@FindBy(tagName="a")})
+	private List<WebElement> lt;
+	
+	public List<WebElement> getLt() {
+		return lt;
+	}
+
 	public WebElement getDatepickerImg() {
 		return datepickerImg;
 	}

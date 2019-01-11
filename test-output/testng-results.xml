@@ -2,32 +2,32 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22691" started-at="2018-12-27T07:39:18Z" finished-at="2018-12-27T07:39:41Z">
+  <suite name="Default suite" duration-ms="41751" started-at="2019-01-11T05:27:16Z" finished-at="2019-01-11T05:27:58Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22691" started-at="2018-12-27T07:39:18Z" finished-at="2018-12-27T07:39:41Z">
-      <class name="testscripts.Example">
-        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testscripts.Example@5f2108b5]" name="lunchBrowser" is-config="true" duration-ms="2841" started-at="2018-12-27T13:09:18Z" finished-at="2018-12-27T13:09:21Z">
+    <test name="Default test" duration-ms="41751" started-at="2019-01-11T05:27:16Z" finished-at="2019-01-11T05:27:58Z">
+      <class name="testscripts.BrokenLink">
+        <test-method status="PASS" signature="lunchBrowser()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="lunchBrowser" is-config="true" duration-ms="3024" started-at="2019-01-11T10:57:16Z" finished-at="2019-01-11T10:57:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchBrowser -->
-        <test-method status="PASS" signature="lunchApp()[pri:0, instance:testscripts.Example@5f2108b5]" name="lunchApp" is-config="true" duration-ms="4829" started-at="2018-12-27T13:09:21Z" finished-at="2018-12-27T13:09:26Z">
+        <test-method status="PASS" signature="lunchApp()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="lunchApp" is-config="true" duration-ms="5304" started-at="2019-01-11T10:57:19Z" finished-at="2019-01-11T10:57:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- lunchApp -->
-        <test-method status="PASS" signature="selectOurDate()[pri:0, instance:testscripts.Example@5f2108b5]" name="selectOurDate" duration-ms="11918" started-at="2018-12-27T13:09:26Z" finished-at="2018-12-27T13:09:38Z">
+        <test-method status="PASS" signature="getTheBrokenLink()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="getTheBrokenLink" duration-ms="29936" started-at="2019-01-11T10:57:24Z" finished-at="2019-01-11T10:57:54Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- selectOurDate -->
-        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.Example@5f2108b5]" name="closeApp" is-config="true" duration-ms="680" started-at="2018-12-27T13:09:38Z" finished-at="2018-12-27T13:09:38Z">
+        </test-method> <!-- getTheBrokenLink -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="closeApp" is-config="true" duration-ms="1345" started-at="2019-01-11T10:57:54Z" finished-at="2019-01-11T10:57:56Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscripts.Example@5f2108b5]" name="closeBrowser" is-config="true" duration-ms="2374" started-at="2018-12-27T13:09:38Z" finished-at="2018-12-27T13:09:41Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:testscripts.BrokenLink@5f2108b5]" name="closeBrowser" is-config="true" duration-ms="2112" started-at="2019-01-11T10:57:56Z" finished-at="2019-01-11T10:57:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- testscripts.Example -->
+      </class> <!-- testscripts.BrokenLink -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
