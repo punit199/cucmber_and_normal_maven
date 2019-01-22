@@ -3,15 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="testscripts.BrokenLink">
+      <class name="testscripts.UploadFile">
         <methods>
-          <include name="closeApp"/>
-          <include name="getTheBrokenLink"/>
-          <include name="closeBrowser"/>
-          <include name="lunchBrowser"/>
-          <include name="lunchApp"/>
+          <include name="upLoadfile"/>
         </methods>
-      </class> <!-- testscripts.BrokenLink -->
+      </class> <!-- testscripts.UploadFile -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
