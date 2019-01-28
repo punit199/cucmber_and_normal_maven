@@ -11,15 +11,27 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+
+import com.gargoylesoftware.htmlunit.javascript.host.file.File;
+
 
 import objectrepository.LoginPageOfActiTime;
 
 public class Baseclass {
 	public static WebDriver driver;
 	FileUtile fil = new FileUtile();
+
+	@BeforeSuite()
+	public void extendReport()
+	{
+		System.out.println("start");
+		
 	
+	}
 	@BeforeClass()
 	public void lunchBrowser()
 	{
@@ -67,6 +79,11 @@ public class Baseclass {
 	public void closeBrowser()
 	{
 		driver.close();
+	}
+	@AfterSuite()
+	public void getExtendReport()
+	{
+		System.out.println("end");
 	}
 
 }
